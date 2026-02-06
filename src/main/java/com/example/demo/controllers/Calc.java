@@ -32,6 +32,9 @@ public class Calc {
         else if (oper.equals("resta")) {
             resultado = n1 - n2;
         }
+        else if (oper.equals("mult")) {
+            resultado = n1 * n2;
+        }
         
         return "Resultado de la " + oper + " es: " + resultado;
     }
